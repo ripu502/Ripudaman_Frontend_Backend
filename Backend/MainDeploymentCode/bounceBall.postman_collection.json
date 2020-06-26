@@ -1,0 +1,668 @@
+{
+	"info": {
+		"_postman_id": "85fd6220-e45b-40e2-b874-1d398ed15881",
+		"name": "bounceBall",
+		"description": ">Tracing the height and the time for the bouncing ball",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "making the prediction",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://ball502.herokuapp.com/",
+					"protocol": "https",
+					"host": [
+						"ball502",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "making the prediction",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "499"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1f3-nejh94KsFJ7Tc7UnkXZRD8JWOSU\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 23 Jun 2020 18:22:32 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"response\": \"done calculation\",\n    \"bounce\": 6,\n    \"data\": [\n        {\n            \"height\": \"100\",\n            \"time\": 0\n        },\n        {\n            \"height\": 0,\n            \"time\": 4.5\n        },\n        {\n            \"height\": \"49\",\n            \"time\": 7.6\n        },\n        {\n            \"height\": 0,\n            \"time\": 10.7\n        },\n        {\n            \"height\": \"24\",\n            \"time\": 12.899999999999999\n        },\n        {\n            \"height\": 0,\n            \"time\": 15.099999999999998\n        },\n        {\n            \"height\": \"12\",\n            \"time\": 16.599999999999998\n        },\n        {\n            \"height\": 0,\n            \"time\": 18.099999999999998\n        },\n        {\n            \"height\": \"6\",\n            \"time\": 19.2\n        },\n        {\n            \"height\": 0,\n            \"time\": 20.3\n        },\n        {\n            \"height\": \"3\",\n            \"time\": 21.1\n        },\n        {\n            \"height\": 0,\n            \"time\": 21.900000000000002\n        },\n        {\n            \"height\": \"1\",\n            \"time\": 22.400000000000002\n        },\n        {\n            \"height\": 0,\n            \"time\": 22.8\n        }\n    ]\n}"
+				},
+				{
+					"name": "making the prediction with hosted",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://ball502.herokuapp.com/",
+							"protocol": "https",
+							"host": [
+								"ball502",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "X-Dns-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Xss-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "380"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"17c-/RuAVMZxsB375x4817fvHNEbv3k\""
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 25 Jun 2020 20:42:16 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"height\": [\n        \"1000\",\n        \"0\",\n        \"490\",\n        \"0\",\n        \"240\",\n        \"0\",\n        \"118\",\n        \"0\",\n        \"58\",\n        \"0\",\n        \"28\",\n        \"0\",\n        \"14\",\n        \"0\",\n        \"7\",\n        \"0\",\n        \"3\",\n        \"0\",\n        \"1\",\n        \"0\"\n    ],\n    \"time\": [\n        \"0\",\n        14.1,\n        24,\n        33.9,\n        40.8,\n        47.699999999999996,\n        52.49999999999999,\n        57.39999999999999,\n        60.79999999999999,\n        64.19999999999999,\n        66.6,\n        69,\n        70.7,\n        72.4,\n        73.60000000000001,\n        74.80000000000001,\n        75.60000000000001,\n        76.4,\n        76.9,\n        77.30000000000001\n    ],\n    \"_id\": \"5ef501ee39646cd7a685fcd8\",\n    \"bounce\": \"9\",\n    \"__v\": 2\n}"
+				}
+			]
+		},
+		{
+			"name": "making the prediction Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"height\":\"100\",\n    \"e\":\"1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://ball502.herokuapp.com/",
+					"protocol": "https",
+					"host": [
+						"ball502",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "making the prediction invalid e",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"height\":\"100\",\n    \"e\":\"1\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://ball502.herokuapp.com/",
+							"protocol": "https",
+							"host": [
+								"ball502",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "X-Dns-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Xss-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "61"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"3d-fzgZxGQMd6DPYeQ+AY0MnLz/8Js\""
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 25 Jun 2020 20:44:34 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"response\": \"Failed\",\n    \"msg\": \"Sorry can't Process this Value.\"\n}"
+				},
+				{
+					"name": "making the prediction",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "499"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1f3-nejh94KsFJ7Tc7UnkXZRD8JWOSU\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 23 Jun 2020 18:22:32 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"response\": \"done calculation\",\n    \"bounce\": 6,\n    \"data\": [\n        {\n            \"height\": \"100\",\n            \"time\": 0\n        },\n        {\n            \"height\": 0,\n            \"time\": 4.5\n        },\n        {\n            \"height\": \"49\",\n            \"time\": 7.6\n        },\n        {\n            \"height\": 0,\n            \"time\": 10.7\n        },\n        {\n            \"height\": \"24\",\n            \"time\": 12.899999999999999\n        },\n        {\n            \"height\": 0,\n            \"time\": 15.099999999999998\n        },\n        {\n            \"height\": \"12\",\n            \"time\": 16.599999999999998\n        },\n        {\n            \"height\": 0,\n            \"time\": 18.099999999999998\n        },\n        {\n            \"height\": \"6\",\n            \"time\": 19.2\n        },\n        {\n            \"height\": 0,\n            \"time\": 20.3\n        },\n        {\n            \"height\": \"3\",\n            \"time\": 21.1\n        },\n        {\n            \"height\": 0,\n            \"time\": 21.900000000000002\n        },\n        {\n            \"height\": \"1\",\n            \"time\": 22.400000000000002\n        },\n        {\n            \"height\": 0,\n            \"time\": 22.8\n        }\n    ]\n}"
+				},
+				{
+					"name": "making the prediction invaild height",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"height\":\"-1\",\n    \"e\":\".7\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://ball502.herokuapp.com/",
+							"protocol": "https",
+							"host": [
+								"ball502",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "X-Dns-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Xss-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "55"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"37-u7bcTeVe/dfc0t2rmLfmzQR7qfM\""
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 25 Jun 2020 20:43:52 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"response\": \"Failed\",\n    \"msg\": \"InValid Height try Again.\"\n}"
+				},
+				{
+					"name": "making the prediction Copy",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"height\":\"100\",\n    \"e\":\".7\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "17"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"11-xRStA907r/kvWTzZ37QQrziPI8M\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 23 Jun 2020 18:23:58 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": \"posted\"\n}"
+				},
+				{
+					"name": "making the prediction with hosted right",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"height\":\"100\",\n    \"e\":\".7\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://ball502.herokuapp.com/",
+							"protocol": "https",
+							"host": [
+								"ball502",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "X-Dns-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Xss-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "19"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"13-bkNg7erg5G+sdNiHMND17RBKwyQ\""
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 25 Jun 2020 20:43:08 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"response\": \"done\"\n}"
+				}
+			]
+		}
+	],
+	"protocolProfileBehavior": {}
+}

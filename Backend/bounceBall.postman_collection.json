@@ -1,0 +1,270 @@
+{
+	"info": {
+		"_postman_id": "85fd6220-e45b-40e2-b874-1d398ed15881",
+		"name": "bounceBall",
+		"description": ">Tracing the height and the time for the bouncing ball",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "making the prediction",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "making the prediction",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "499"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1f3-nejh94KsFJ7Tc7UnkXZRD8JWOSU\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 23 Jun 2020 18:22:32 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"response\": \"done calculation\",\n    \"bounce\": 6,\n    \"data\": [\n        {\n            \"height\": \"100\",\n            \"time\": 0\n        },\n        {\n            \"height\": 0,\n            \"time\": 4.5\n        },\n        {\n            \"height\": \"49\",\n            \"time\": 7.6\n        },\n        {\n            \"height\": 0,\n            \"time\": 10.7\n        },\n        {\n            \"height\": \"24\",\n            \"time\": 12.899999999999999\n        },\n        {\n            \"height\": 0,\n            \"time\": 15.099999999999998\n        },\n        {\n            \"height\": \"12\",\n            \"time\": 16.599999999999998\n        },\n        {\n            \"height\": 0,\n            \"time\": 18.099999999999998\n        },\n        {\n            \"height\": \"6\",\n            \"time\": 19.2\n        },\n        {\n            \"height\": 0,\n            \"time\": 20.3\n        },\n        {\n            \"height\": \"3\",\n            \"time\": 21.1\n        },\n        {\n            \"height\": 0,\n            \"time\": 21.900000000000002\n        },\n        {\n            \"height\": \"1\",\n            \"time\": 22.400000000000002\n        },\n        {\n            \"height\": 0,\n            \"time\": 22.8\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "making the prediction Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"height\":\"100\",\n    \"e\":\".7\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "making the prediction",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "499"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1f3-nejh94KsFJ7Tc7UnkXZRD8JWOSU\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 23 Jun 2020 18:22:32 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"response\": \"done calculation\",\n    \"bounce\": 6,\n    \"data\": [\n        {\n            \"height\": \"100\",\n            \"time\": 0\n        },\n        {\n            \"height\": 0,\n            \"time\": 4.5\n        },\n        {\n            \"height\": \"49\",\n            \"time\": 7.6\n        },\n        {\n            \"height\": 0,\n            \"time\": 10.7\n        },\n        {\n            \"height\": \"24\",\n            \"time\": 12.899999999999999\n        },\n        {\n            \"height\": 0,\n            \"time\": 15.099999999999998\n        },\n        {\n            \"height\": \"12\",\n            \"time\": 16.599999999999998\n        },\n        {\n            \"height\": 0,\n            \"time\": 18.099999999999998\n        },\n        {\n            \"height\": \"6\",\n            \"time\": 19.2\n        },\n        {\n            \"height\": 0,\n            \"time\": 20.3\n        },\n        {\n            \"height\": \"3\",\n            \"time\": 21.1\n        },\n        {\n            \"height\": 0,\n            \"time\": 21.900000000000002\n        },\n        {\n            \"height\": \"1\",\n            \"time\": 22.400000000000002\n        },\n        {\n            \"height\": 0,\n            \"time\": 22.8\n        }\n    ]\n}"
+				},
+				{
+					"name": "making the prediction Copy",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"height\":\"100\",\n    \"e\":\".7\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "17"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"11-xRStA907r/kvWTzZ37QQrziPI8M\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 23 Jun 2020 18:23:58 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": \"posted\"\n}"
+				}
+			]
+		}
+	],
+	"protocolProfileBehavior": {}
+}
